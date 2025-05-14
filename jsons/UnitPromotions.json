@@ -19,4 +19,9 @@
           "name": "[La Grande Armeé] ability",
           "uniques": ["[+15]% Strength <when adjacent to a [Land] unit>","[+2] Movement <when adjacent to a [Land] unit>","Will not be displayed in Civilopedia"],
      }
+     {
+		"name": "PRC Ability",
+		"uniques": ["All healing effects doubled <for [12] turns> <upon declaring war with a major Civilization>"],
+	},
+
 ]
