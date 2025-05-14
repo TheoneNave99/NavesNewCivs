@@ -6,7 +6,7 @@
 		"production": 2,
 		"percentStatBonus": {"production": 5},
 		"maintenance": 1,
-		"uniques": ["Provides [5] [Iron]",],
+		"uniques": ["Provides [5] [Iron]"],
 		"requiredTech": "Metal Casting"
 	},
 	{
