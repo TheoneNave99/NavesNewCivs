@@ -30,4 +30,32 @@
 		"promotions": ["March"],
 		"attackSound": "shot"
 	},
+	{
+		"name": "Guards Rifleman",
+		"unitType": "Gunpowder",
+		"uniqueTo": "IEAmerica",
+		"movement": 2,
+		"strength": 38,
+		"cost": 255,
+		"uniques": ["[+33]% Strength <when defending>"]
+		"promotions": ["Cover I"],
+		"requiredTech": "Rifling",
+		"obsoleteTech": "Replaceable Parts",
+		"upgradesTo": "Great War Infantry",
+		"attackSound": "shot"
+	},
+	{
+		"name": "Marshal",
+		"unitType": "Mounted",
+		"movement": 4,
+		"strength": 38,
+		"cost": 500,
+		"requiredTech": "Military Science",
+		"upgradesTo": "Landship",
+		"obsoleteTech": "Combustion",
+		"promotions": ["Sentry"],
+		"uniques": ["Can move after attacking","No defensive terrain bonus", "Never appears as a Barbarian unit", "[+20]% Strength bonus for [Military] units within [3] tiles",
+			    "All adjacent units heal [+15] HP when healing", "[+15] HP when healing", "Can instantly construct a [Citadel] improvement <by consuming this unit>"],
+		"attackSound": "horse"
+	},	
 ]
