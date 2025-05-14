@@ -94,5 +94,38 @@
 			"Bradford","Brighton","Preston","Chester","Canterbury","Oxford"],
 		"spyNames": ["Walsingham","Dundas","Canning","Peel","Castlereagh","Elgin","Wellington","Blucher","Grey","Hamilton"],
 	},
+	{ 
+		"name": "Austrian Empire", 
+		"leaderName": "Francis II",
+		"adjective": ["Austrian"],
+		"startBias": ["Hill"],
+		"personality": "Francis II",
+		"preferredVictoryType": "Diplomatic",
+
+		"startIntroPart1": "Emperor Francis II, last Holy Roman Emperor and ruler of Austria, your empire stands at the heart of Europe.",
+		"startIntroPart2": "Will you preserve the old order or give way to revolution?",
+		"declaringWar": "Austria rises in righteous arms!",
+		"attacked": "The Empire will not crumble quietly.",
+		"defeated": "The crown... shattered...",
+		"introduction": "I am Francis II, Emperor of Austria and defender of tradition. Speak, if you value peace.",
+
+		"neutralHello": "Austria listens but does not trust easily.",
+		"hateHello": "You threaten the stability of Europe.",
+
+		"tradeRequest": "Let us hear your offer.",
+
+		"outerColor": [255,204,0],
+		"innerColor": [0,0,0],
+		"favoredReligion": "Christianity",
+		"uniqueName": "European Restoration",
+		"uniques": ["[+15]% Great Person generation [in all cities] <for every [Completed Policy branches]> <hidden from users>","[-10]% enemy spy effectiveness [in all cities] <for every [Completed Policy branches]> <hidden from users>",
+			"Comment [Completing a policy branch grants +15% Great Person generation and reduces enemy spy effectiveness by -10% in all cities]"],
+		
+		"cities": ["Vienna","Prague","Budapest","Graz","Brno","Lviv","Trieste","Innsbruck","Salzburg","Klagenfurt","Ljubljana","Zagreb","Debrecen",
+			"Sibiu","Temesvár","Pressburg","Olomouc","Krems","Linz","Sopron","Maribor","Košice","České Budějovice","Timișoara","Sarajevo","Mostar",
+			"Novi Sad","Subotica","Fiume","Esztergom"],
+		"spyNames": ["Metternich","Sedlnitzky","Stadion","Thugut","Habsburg","Schwarzenberg","Klemens","Esterházy","Breuner","Hager"]
+		
+	},
 
 ]
