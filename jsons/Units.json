@@ -90,4 +90,34 @@
 		"hurryCostModifier": 20,
 		"attackSound": "shipCannonVolley"
     },
+    {
+	        "name": "Kaiserlich-königliche",
+		"unitType": "Gunpowder",
+	   	"replaces": "Rifleman",
+		"uniqueTo": "Austrian Empire",
+		"movement": 2,
+		"strength": 34,
+		"cost": 225,
+		"requiredTech": "Rifling",
+	        "uniques": ["[+20]% Strength <when defending>","[+15]% XP gained from combat"],
+                "obsoleteTech": "Replaceable Parts", 
+		"upgradesTo": "Great War Infantry",
+		"attackSound": "shot"
+    },
+    {
+		"name": "Austrian Hussar",
+		"unitType": "Mounted",
+	        "replaces": "Cavalry",
+	        "uniqueTo": "Austrian Empire",
+		"movement": 5,
+		"strength": 34,
+		"cost": 225,
+		"requiredTech": "Military Science",
+		"requiredResource": "Horses",
+		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>","[+1] Sight"],
+		"promotions": ["Shock "],
+		"upgradesTo": "Landship",
+		"obsoleteTech": "Combustion",
+		"attackSound": "horse"
+    }
 ]
