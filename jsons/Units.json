@@ -33,7 +33,7 @@
 	{
 		"name": "Guards Rifleman",
 		"unitType": "Gunpowder",
-		"uniqueTo": "IEAmerica",
+		"uniqueTo": "French Empire",
 		"movement": 2,
 		"strength": 38,
 		"cost": 255,
@@ -47,7 +47,8 @@
 	{
 		"name": "Marshal",
 		"unitType": "Mounted",
-		"movement": 4,
+		"uniqueTo": "French Empire",
+		"movement": 5,
 		"strength": 38,
 		"cost": 500,
 		"requiredTech": "Military Science",
