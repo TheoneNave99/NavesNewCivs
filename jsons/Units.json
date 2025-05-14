@@ -16,7 +16,7 @@
 		"uniqueTo": "IEAmerica",
 		"movement": 2,
 		"strength": 28,
-		"cost": 125,
+		"cost": 120,
 		"requiredTech": "Rifling",
 		"uniques": ["Can build [Land] improvements on tiles"]
 		"promotions": ["March"],
@@ -77,7 +77,7 @@
 		"strength": 32,
 		"cost": 210,
 		"requiredTech": "Rifling",
-	        "uniques": ["[+10]% Strength <when fighting in [Foreign Land] tiles>","[1] Movement point cost to disembark"],
+	        "uniques": ["[+20]% Strength <when fighting in [Foreign Land] tiles>","[1] Movement point cost to disembark"],
                 "obsoleteTech": "Replaceable Parts", 
 		"upgradesTo": "Great War Infantry",
 		"attackSound": "shot"
@@ -88,9 +88,9 @@
 		"replaces": "Frigate",
 		"uniqueTo": "Great Britain",
 		"movement": 5,
-		"strength": 34,
+		"strength": 35,
 		"rangedStrength": 35,
-		"cost": 185,
+		"cost": 180,
 		"requiredResource": "Iron",
 		"uniques": ["[+1] Sight"],
 		"requiredTech": "Navigation",
@@ -209,7 +209,7 @@
 		"name": "Laborer",
 		"unitType": "Civilian",
 		"uniqueTo": "People's Republic of China",
-		"movement": 4,
+		"movement": 5,
 		"uniques": ["Can build [Land] improvements on tiles"],
 		"requiredTech": "Civil Service",
 		"cost": 15
