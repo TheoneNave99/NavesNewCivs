@@ -150,7 +150,7 @@
 		"innerColor": [33,30,28],
 		"favoredReligion": "Christianity",
 		"uniqueName": "Krümpersystem",
-		"uniques": ["[+2 Production, +2 Science, +1 Happiness] <with a garrison>","[+25]% Production when constructing [{Military} {Land}] units [in all cities] <when at war>","[-50]% Gold cost of upgrading <when at war>"],
+		"uniques": ["[+3 Production, +2 Science, +2 Happiness] <with a garrison>","[+25]% Production when constructing [{Military} {Land}] units [in all cities] <when at war>","[-50]% Gold cost of upgrading <when at war>"],
 
 		"cities": ["Berlin","Königsberg","Breslau","Stettin","Magdeburg","Potsdam","Danzig","Erfurt","Cologne","Frankfurt an der Oder","Leipzig",
 			"Halle","Tilsit","Kassel","Glogau","Cottbus","Brandenburg","Marienburg","Allenstein","Elbing","Wittenberg","Naumburg","Merseburg",
