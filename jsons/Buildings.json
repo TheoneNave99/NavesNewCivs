@@ -104,4 +104,30 @@
 		"[+2 Production, +2 Gold] from [Water resource] tiles [in this city]"],
 		"requiredTech": "Navigation",
 	},
+	{
+
+		"name": "Hofkriegsrat",
+		"replaces": "Military Academy",
+		"uniqueTo": "Austrian Empire",
+		"hurryCostModifier": 0,
+		"gold": 1,
+		"culture": 1,
+		"maintenance": 1,
+		"requiredBuilding": "Armory",
+		"uniques": ["New [Military] units start with [15] XP [in this city]", "Destroyed when the city is captured","New spies start with [2] level(s) <in this city>"],
+		"requiredTech": "Military Science"
+	},
+	{
+		"name": "Hofoper",
+		"replaces": "Opera House",
+		"uniqueTo": "Austrian Empire",
+		"culture": 4,
+		"happiness": 1,
+		"specialistSlots": {"Artist": 1},
+		"hurryCostModifier": 10,
+		"requiredBuilding": "Amphitheater",
+		"maintenance": 2,
+		"requiredTech": "Drama and Poetry",
+		"uniques": ["Destroyed when the city is captured"]
+	},
 ]
