@@ -22,7 +22,7 @@
 
         "favoredReligion": "Christianity",
 		"uniqueName": "Profits Profits Profits",
-		"uniques": ["[+20]% Unhappiness from [Population] [in all cities]", "[-75]% Gold cost of acquiring tiles [in all cities]",
+		"uniques": ["[+15]% Unhappiness from [Population] [in all cities]", "[-75]% Gold cost of acquiring tiles [in all cities]",
 			    "Starts with [Commerce] adopted", "[+2 Gold] from every [Strategic resource]", "Double quantity of [Coal] produced", "Double quantity of [Aluminum] produced"],
 		"cities": ["Washington","New York","Boston","Philadelphia","Atlanta","Chicago","Seattle","San Francisco","Los Angeles","Houston",
 			"Portland","St. Louis","Miami","Buffalo","Detroit","New Orleans","Baltimore","Denver","Cincinnati","Dallas","Memphis",
@@ -55,7 +55,7 @@
 
 		"favoredReligion": "Christianity",
 		"uniqueName": "Grande Armée",
-		"uniques": ["[+2] Movement <for [Military] units>", "[-50]% maintenance costs <for [Land] units>"],
+		"uniques": ["[+2] Movement <for [Military] units>", "[-50]% maintenance costs <for [Land] units>", "Starts with [Honor] adopted"],
 		"cities": ["Paris","Orleans","Lyon","Troyes","Tours","Marseille","Chartres","Avignon","Rouen","Grenoble",
 			"Dijon","Amiens","Cherbourg","Poitiers","Toulouse","Bayonne","Strasbourg","Brest","Bordeaux","Rennes",
 			"Nice","Saint Etienne","Nantes","Reims","Le Mans","Montpellier","Limoges","Nancy","Lille","Caen","Toulon",
