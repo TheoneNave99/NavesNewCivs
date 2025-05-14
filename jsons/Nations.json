@@ -158,6 +158,38 @@
 		"spyNames": ["Scharnhorst","Blücher","Bismarck","Gneisenau","Schlieffen","Zieten","Von Moltke","Hardenberg","Wilhelm II","Tirpitz"]
 		
 	},
+	{ 
+		"name": "Russian Empire", 
+		"leaderName": "Alexander I", 
+		"adjective": ["Russian"],
+		"startBias": ["Tundra"],
+		"personality": "Alexander I",
+		"preferredVictoryType": "Domination",
 
+		"startIntroPart1": "Tsar Alexander I, sovereign of the vast Russian Empire, your armies endure where others falter.",
+		"startIntroPart2": "Will you defend your realm or strike at the heart of Europe?",
+		"declaringWar": "Russia will not tolerate this!",
+		"attacked": "The snows will be your grave!",
+		"defeated": "Winter... was not enough...",
+		"introduction": "I am Alexander, Emperor of All Russia. Let us speak with civility, if not trust.",
+
+		"neutralHello": "Russia waits. Watchfully.", 
+		"hateHello": "We have no more patience for you.",
+
+		"tradeRequest": "Speak. Russia considers your offer.",
+
+		"outerColor": [249,249,249],
+		"innerColor": [0,79,206],
+		"favoredReligion": "Christianity",
+		"uniqueName": "The Sleeping Bear",
+		"uniques": ["[+20]% Production when constructing [{Military} {Land}] units [in all cities] <when at war>","[+10]% Strength <for [Land] units> <when fighting in [Friendly Land] tiles>",
+			"[Great General] is earned [+20]% faster <for [Land] units> <when fighting in [Friendly Land] tiles>", "[-30]% Culture cost of natural border growth [in all cities]"],
+		
+		"cities": ["St. Petersburg","Moscow","Kiev","Novgorod","Kharkov","Kazan","Simferopol","Smolensk","Kaluga","Minsk","Vitebsk","Borodino","Maloyaroslavets",
+			"Borisov","Fili","Vilno","Riga","Revel","Helsingfors","Belostok","Warsaw","Yekaterinoslav","Tula","NizhniyNovgorod","Rostov-on-Don","Stavropol",
+			"Tsaritsyn","Yekaterinburg","Akhtiar","Yekaterinodar","Tobolsk","Omsk","Tomsk","Krasnoyarsk","Irkutsk","Yakutsk","Petropavlovsk"],
+		"spyNames": ["Alexander I","Kutusov","Barclay de Tolly","Karamzin","Rennenkampf","Bagration","Kornilov","Suvorov","Pahlen","Rumyantsev"]
+		
+	}, 
 
 ]
