@@ -37,7 +37,7 @@
 		"movement": 2,
 		"strength": 38,
 		"cost": 255,
-		"uniques": ["[+33]% Strength <when defending>"]
+		"uniques": ["[+25]% Strength <when defending>"]
 		"promotions": ["Cover I"],
 		"requiredTech": "Rifling",
 		"obsoleteTech": "Replaceable Parts",
@@ -58,5 +58,36 @@
 		"uniques": ["Can move after attacking","No defensive terrain bonus", "Never appears as a Barbarian unit", "[+20]% Strength bonus for [Military] units within [3] tiles",
 			    "All adjacent units heal [+15] HP when healing", "[+15] HP when healing", "Can instantly construct a [Citadel] improvement <by consuming this unit>"],
 		"attackSound": "horse"
-	},	
+	},
+	{
+		"name": "Redcoat",
+		"unitType": "Gunpowder",
+	   	"replaces": "Rifleman",
+		"uniqueTo": "Great Britain",
+		"movement": 2,
+		"strength": 32,
+		"cost": 210,
+		"requiredTech": "Rifling",
+	        "uniques": ["[+10]% Strength <when fighting in [Foreign Land] tiles>","[1] Movement point cost to disembark"],
+                "obsoleteTech": "Replaceable Parts", 
+		"upgradesTo": "Great War Infantry",
+		"attackSound": "shot"
+   },
+   {
+	        "name": "Ship of the Line (Great Britain)",
+		"unitType": "Ranged Water",
+		"replaces": "Frigate",
+		"uniqueTo": "Great Britain",
+		"movement": 5,
+		"strength": 34,
+		"rangedStrength": 35,
+		"cost": 185,
+		"requiredResource": "Iron",
+		"uniques": ["[+1] Sight"],
+		"requiredTech": "Navigation",
+		"obsoleteTech": "Electronics",
+		"upgradesTo": "Battleship",
+		"hurryCostModifier": 20,
+		"attackSound": "shipCannonVolley"
+    },
 ]
