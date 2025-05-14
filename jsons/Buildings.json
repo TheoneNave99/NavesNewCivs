@@ -91,6 +91,20 @@
 		"requiredTech": "Rifling"
 	},
 	{
+		"name": "Lycée Impérial",
+		"replaces": "Public School",
+		"uniqueTo": "French Empire",
+		"science": 3,
+		"culture": 2,
+		"specialistSlots": {"Scientist": 1},
+		"greatPersonPoints": {"Great General": 1},
+		"requiredBuilding": "University",
+		"maintenance": 2,
+		"hurryCostModifier": 0,
+		"uniques": ["[+1 Science] per [2] population [in this city]","Comment [+1 [Great General] points]"],
+		"requiredTech": "Scientific Theory"
+	},
+	{
 		"name": "Royal Naval Dockyard",
 		"replaces": "Seaport",
 		"uniqueTo": "Great Britain",
