@@ -199,5 +199,55 @@
 		"spyNames": ["Alexander I","Kutusov","Barclay de Tolly","Karamzin","Rennenkampf","Bagration","Kornilov","Suvorov","Pahlen","Rumyantsev"]
 		
 	}, 
+	{
+	"name": "People's Republic of China",
+	"adjective": ["Chinese"],
+	"leaderName": "Mao Zedong",
+	"favoredReligion": "Buddhism",
+
+	"declaringWar": "You imperialist dogs have pushed us too far. The people of China rise to crush you under the weight of our revolutionary might!",
+	"attacked": "You dare attack the great People's Republic? Your capitalist aggression will be your downfall. The Chinese people will resist to the last man!",
+	"defeated": "The red flag falls, and with it, the dreams of a billion. Our revolution is silenced, but history will remember the People's Republic. Farewell, foreign dog.",
+	"introduction": "I am Mao Zedong, Chairman of the Communist Party and leader of the Chinese people. Our revolution watches your actions with great interest.",
+
+	"neutralHello": "Ah, you return.",
+	"hateHello": " Speak, if you must, but know that paper tigers do not scare us.",
+
+	"tradeRequest": "Let us forge an iron rice bowl together. Your rice for our steel – a fair trade to fill the bellies of both our peoples, no?",
+
+	"outerColor": [154, 0, 0],
+	"innerColor": [208, 146, 0],
+
+	"uniqueName": "The Long March",
+	"uniques": [
+	"Comment [All healing effects doubled for 12 turns upon declaring war with a major civilization]",
+	"Comment [Completing Policy Trees increase unit HP healing by 4]",
+	"Comment [Completing Policy Trees grant +1 [Culture], +1 [Gold] from every [Manufacturing Sector]]",
+	"[All] units gain the [PRC Ability] promotion <hidden from users>",
+
+	"[+1 Gold, +1 Culture] from every [Manufacturing Sector] <upon adopting [Tradition Complete]> <hidden from users>",
+	"[+1 Gold, +1 Culture] from every [Manufacturing Sector] <upon adopting [Liberty Complete]> <hidden from users>",
+	"[+1 Gold, +1 Culture] from every [Manufacturing Sector] <(modified by game speed)> <upon adopting [Honor Complete]> <hidden from users>",
+	"[+1 Gold, +1 Culture] from every [Manufacturing Sector] <(modified by game speed)> <upon adopting [Piety Complete]> <hidden from users>",
+	"[+1 Gold, +1 Culture] from every [Manufacturing Sector] <(modified by game speed)> <upon adopting [Patronage Complete]> <hidden from users>",
+	"[+1 Gold, +1 Culture] from every [Manufacturing Sector] <(modified by game speed)> <upon adopting [Commerce Complete]> <hidden from users>",
+	"[+1 Gold, +1 Culture] from every [Manufacturing Sector] <(modified by game speed)> <upon adopting [Order Complete]> <hidden from users>",
+	"[+1 Gold, +1 Culture] from every [Manufacturing Sector] <(modified by game speed)> <upon adopting [Autocracy Complete]> <hidden from users>",
+	"[+1 Gold, +1 Culture] from every [Manufacturing Sector] <(modified by game speed)> <upon adopting [Freedom Complete]> <hidden from users>",
+	"[+1 Gold, +1 Culture] from every [Manufacturing Sector] <(modified by game speed)> <upon adopting [Rationalism Complete]> <hidden from users>",
+
+	"[+4] HP when healing <upon adopting [Tradition Complete]> <hidden from users>",
+	"[+4] HP when healing <upon adopting [Liberty Complete]> <hidden from users>",
+	"[+4] HP when healing <upon adopting [Honor Complete]> <hidden from users>",
+	"[+4] HP when healing <upon adopting [Piety Complete]> <hidden from users>",
+	"[+4] HP when healing <upon adopting [Patronage Complete]> <hidden from users>",
+	"[+4] HP when healing <upon adopting [Commerce Complete]> <hidden from users>",
+	"[+4] HP when healing <upon adopting [Order Complete]> <hidden from users>",
+	"[+4] HP when healing <upon adopting [Autocracy Complete]> <hidden from users>",
+	"[+4] HP when healing <upon adopting [Freedom Complete]> <hidden from users>",
+	"[+4] HP when healing <upon adopting [Rationalism Complete]> <hidden from users>",
+
+	},
+
 
 ]
