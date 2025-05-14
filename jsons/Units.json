@@ -115,7 +115,7 @@
 		"requiredTech": "Military Science",
 		"requiredResource": "Horses",
 		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>","[+1] Sight"],
-		"promotions": ["Shock "],
+		"promotions": ["[Austrian Hussar] ability"],
 		"upgradesTo": "Landship",
 		"obsoleteTech": "Combustion",
 		"attackSound": "horse"
