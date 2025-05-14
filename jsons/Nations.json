@@ -127,5 +127,37 @@
 		"spyNames": ["Metternich","Sedlnitzky","Stadion","Thugut","Habsburg","Schwarzenberg","Klemens","Esterházy","Breuner","Hager"]
 		
 	},
+	{
+		"name": "Kingdom of Prussia", 
+		"leaderName": "Frederick William III", 
+		"adjective": ["Prussian"],
+		"personality": "Frederick William III",
+		"preferredVictoryType": "Domination",
+
+		"startIntroPart1": "King Frederick William III, ruler of Prussia and reformer of the army, your kingdom stands as Europe's rising sword.",
+		"startIntroPart2": "Can you transform defeat into destiny and lead Prusia to greatness?",
+		"declaringWar": "Prussia shall bring order through steel!",
+		"attacked": "Prussians do not yield!",
+		"defeated": "Our discipline... was not enough...",
+		"introduction": "I am Frederick William III of Prussia. Speak quickly, and with purpose.",
+
+		"neutralHello": "We are watching. Closely.",
+		"hateHello": "You dishonor Prussian order.",
+
+		"tradeRequest": "Efficiency demands agreement. Proceed.",
+
+		"outerColor": [210,205,197],
+		"innerColor": [33,30,28],
+		"favoredReligion": "Christianity",
+		"uniqueName": "Krümpersystem",
+		"uniques": ["[+2 Production, +2 Science, +1 Happiness] <with a garrison>","[+25]% Production when constructing [{Military} {Land}] units [in all cities] <when at war>","[-50]% Gold cost of upgrading <when at war>"],
+
+		"cities": ["Berlin","Königsberg","Breslau","Stettin","Magdeburg","Potsdam","Danzig","Erfurt","Cologne","Frankfurt an der Oder","Leipzig",
+			"Halle","Tilsit","Kassel","Glogau","Cottbus","Brandenburg","Marienburg","Allenstein","Elbing","Wittenberg","Naumburg","Merseburg",
+			"Neisse","Liegnitz","Paderborn","Hamm","Goslar","Nordhausen","Prenzlau"],
+		"spyNames": ["Scharnhorst","Blücher","Bismarck","Gneisenau","Schlieffen","Zieten","Von Moltke","Hardenberg","Wilhelm II","Tirpitz"]
+		
+	},
+
 
 ]
