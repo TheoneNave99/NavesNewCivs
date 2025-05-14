@@ -62,4 +62,37 @@
 			"Le Havre","Lourdes","Cannes","Aix-En-Provence","La Rochelle","Bourges","Calais"],
         "spyNames": ["Jean-Paul", "Martine", "Lucien", "François", "Augustine", "Monsieur X", "Dr. Dupont", "Vipère", "Yvette", "Renard"]
     },
+	{ 
+		"name": "Great Britain", 
+		"leaderName": "George III", 
+		"adjective": ["British"], 
+		"startBias": ["Coast"],
+		"personality": "George III",
+		"preferredVictoryType": "Diplomatic",
+
+		"startIntroPart1": "King George III, sovereign of the British Empire and ruler of the seas, your fleets dominate the waves.",
+		"startIntroPart2": "Will Britannia continue to rule or be cast down from its lofty perch?",
+		"declaringWar": "Britain shall not bow to tyranny!",
+		"attacked": "The empire answers with cannon and courage.",
+		"defeated": "The sun... sets...",
+		"introduction": "I am George III, King of Great Britain and Ireland. May our dealings be civil—and brief.",
+
+		"neutralHello": "The empire has no quarrel—yet.",
+		"hateHello": "Your presence is an insult to Britain.",
+
+		"tradeRequest": "Let us consider your proposition.",
+
+		"outerColor": [113, 15, 19],
+		"innerColor": [162, 196, 255],
+		"favoredReligion": "Christianity",
+		"uniqueName": "Rule, Britannia!",
+		"uniques": ["[+2] Movement <for [Water] units>","[+20]% Strength <for [Water] units>","Gifts of Gold to City-States generate [+25]% more Influence",
+			     "Allied City-States provide [Production] equal to [+25]% of what they produce for themselves", "Allied City-States provide [Gold] equal to [+10]% of what they produce for themselves"],
+
+		"cities":["London","Manchester","Liverpool","Birmingham","Bristol","Leeds","Sheffield","Edinburgh","Glasgow","Dublin","Newcastle","Plymouth",
+			"Portsmouth","Norwich","Nottingham","Hull","Leicester","Exeter","Coventry","York","Bath","Sunderland","Wolverhampton","Derby","Southampton",
+			"Bradford","Brighton","Preston","Chester","Canterbury","Oxford"],
+		"spyNames": ["Walsingham","Dundas","Canning","Peel","Castlereagh","Elgin","Wellington","Blucher","Grey","Hamilton"],
+	},
+
 ]
