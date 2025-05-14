@@ -73,10 +73,11 @@
 		"uniqueTo": "French Empire",
 		"production": 1,
 		"gold": 1,
+		"science": 1,
 		"happiness": 5,
 		"culture": 5,
-		"cityStrength": 4,
-		"cost": 1,
+		"cityStrength": 5,
+		"cost": 0,
 		"uniques": ["Indicates the capital city", "[10]% Food is carried over after population increases [in this city]", "[+10]% [Food] [in all cities]"]
 	},
 
@@ -89,5 +90,18 @@
 		"uniques": ["New [Military] units start with [15] XP [in this city]", "Destroyed when the city is captured",
 			    "[+15]% Production when constructing [Military] units [in this city]"],
 		"requiredTech": "Rifling"
+	},
+	{
+		"name": "Royal Naval Dockyard",
+		"replaces": "Seaport",
+		"uniqueTo": "Great Britain",
+		"hurryCostModifier": 25,
+		"production": 2,
+		"maintenance": 3,
+		"requiredBuilding": "Harbor",
+		"uniques": ["Must be next to [Coast]", 
+		"[+33]% Production when constructing [Water] units [in this city]",
+		"[+2 Production, +2 Gold] from [Water resource] tiles [in this city]"],
+		"requiredTech": "Navigation",
 	},
 ]
