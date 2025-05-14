@@ -139,4 +139,18 @@
 			"New [Military] units start with [25] XP [in this city]", "Destroyed when the city is captured"],
 		"requiredTech": "Bronze Working"
 	},
+	{	
+		"name": "Winter Palace",
+		"replaces": "Palace",
+		"uniqueTo": "Russian Empire",
+		"isNationalWonder": true,
+		"production": 3,
+		"science": 3,
+		"gold": 3,
+		"culture": 3,
+		"cityStrength": 5,
+		"cityHealth": 20,
+		"cost": 1,
+		"uniques": ["Indicates the capital city","[+2 Happiness] <for every [2] [[Wonder] Buildings]>","[-33]% Culture cost of natural border growth [in all cities]"],
+	},
 ]
