@@ -167,4 +167,20 @@
 		"cost": 1,
 		"uniques": ["Indicates the capital city","[+2 Happiness] <for every [2] [[Wonder] Buildings]>","[-33]% Culture cost of natural border growth [in all cities]"],
 	},
+	{
+			"name": "Manufacturing Sector",
+			"uniqueTo": "People's Republic of China",
+			"replaces": "Factory",
+			"cost": 360,
+			"production": 4,
+			"percentStatBonus": {"production": 10},
+			"specialistSlots": {"Engineer": 2},
+			"requiredBuilding": "Workshop",
+			"uniques": ["Provides [1] [Manufactured Goods]"],
+			"maintenance": 3,
+			"hurryCostModifier": 0,
+			"requiredResource": "Coal",
+			"requiredTech": "Industrialization"
+		},
+
 ]
