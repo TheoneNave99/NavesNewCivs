@@ -2,7 +2,7 @@
 	{
 		"name": "Iron Smeltery",
 		"uniqueTo": "IEAmerica",
-		"cost": 80,
+		"cost": 60,
 		"production": 2,
 		"percentStatBonus": {"production": 5},
 		"maintenance": 1,
@@ -22,7 +22,7 @@
 	{
 		"name": "Sky Grazer",
 		"uniqueTo": "IEAmerica",
-		"cost": 80,
+		"cost": 100,
 		"happiness": 1,
 		"maintenance": 2,
 		"uniques": ["[-15]% Unhappiness from [Population] [in this city]", "Consumes [3] [Iron]", "[10]% Food is carried over after population increases [in this city]"],
@@ -31,7 +31,7 @@
 		{
 		"name": "Sky Scraper",
 		"uniqueTo": "IEAmerica",
-		"cost": 120,
+		"cost": 200,
 		"happiness": 2,
 		"maintenance": 4,
 		"uniques": ["[-30]% Unhappiness from [Population] [in this city]", "Consumes [6] [Iron]", "[20]% Food is carried over after population increases [in this city]"],
@@ -51,7 +51,7 @@
 	{
 		"name": "Oil Generator",
 		"uniqueTo": "IEAmerica",
-		"cost": 100,
+		"cost": 140,
 		"production": 2,
 		"maintenance": 4,
 		"uniques": ["[-20]% Unhappiness from [Population] [in this city]", "Consumes [2] [Oil]"],
@@ -60,10 +60,34 @@
 	{
 		"name": "Power Station",
 		"uniqueTo": "IEAmerica",
-		"cost": 120,
+		"cost": 160,
 		"happiness": 2,
 		"maintenance": 4,
 		"uniques": ["[-30]% Unhappiness from [Population] [in this city]", "Consumes [3] [Oil]"],
 		"requiredTech": "Combustion"
+	},
+	{
+		"name": "Versailles",
+		"isNationalWonder": true,
+		"replaces": "Palace",
+		"uniqueTo": "French Empire",
+		"production": 1,
+		"gold": 1,
+		"happiness": 5,
+		"culture": 5,
+		"cityStrength": 4,
+		"cost": 1,
+		"uniques": ["Indicates the capital city", "[10]% Food is carried over after population increases [in this city]", "[+10]% [Food] [in all cities]"]
+	},
+
+	{
+		"name": "Mustering Square",
+		"uniqueTo": "French Empire",
+		"cost": 80,
+		"cityStrength": 5,
+		"maintenance": 0,
+		"uniques": ["New [Military] units start with [15] XP [in this city]", "Destroyed when the city is captured",
+			    "[+15]% Production when constructing [Military] units [in this city]"],
+		"requiredTech": "Rifling"
 	},
 ]
