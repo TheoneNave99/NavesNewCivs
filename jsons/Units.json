@@ -1,14 +1,5 @@
 [
 	{
-		"name": "Laborer",
-		"unitType": "Civilian",
-		"uniqueTo": "IEAmerica",
-		"movement": 4,
-		"uniques": ["Can build [Land] improvements on tiles", "Can speed up construction of a building"],
-		"requiredTech": "Civil Service",
-		"cost": 300
-	},
-	{
 		"name": "Capitalist",
 		"unitType": "Civilian",
 		"uniqueTo": "IEAmerica",
@@ -199,5 +190,29 @@
 		"uniques": ["[+150]% Strength <vs cities> <when attacking>","No defensive terrain bonus","Must set up to ranged attack","[-1] Sight","Withdraws before melee combat <with [50]% chance>","[+33]% Strength <vs [Gunpowder] units> <when attacking>"],
 		"attackSound": "cannon"
    },
+   {
+	"name": "Red Guard",
+	"uniqueTo": "People's Republic of China",
+	"replaces": "Infantry",
+	"unitType": "Gunpowder",
+	"movement": 2,
+	"strength": 67,
+	"cost": 375,
+	"requiredTech": "Plastics",
+	"promotions": ["Great Generals I"],
+	"uniques": ["[+20]% Strength <when adjacent to a [Military] unit>", "Earn [75]% of killed [Military] unit's [Strength] as [Culture]"],
+	"upgradesTo": "Mechanized Infantry",
+	"obsoleteTech": "Mobile Tactics",
+	"attackSound": "shot"
+},
+	{
+		"name": "Laborer",
+		"unitType": "Civilian",
+		"uniqueTo": "People's Republic of China",
+		"movement": 4,
+		"uniques": ["Can build [Land] improvements on tiles"],
+		"requiredTech": "Civil Service",
+		"cost": 15
+	},
 
 ]
