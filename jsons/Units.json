@@ -36,7 +36,7 @@
 		"uniqueTo": "French Empire",
 		"movement": 2,
 		"strength": 38,
-		"cost": 255,
+		"cost": 250,
 		"uniques": ["[+25]% Strength <when defending>"]
 		"promotions": ["Cover I"],
 		"requiredTech": "Rifling",
@@ -120,4 +120,35 @@
 		"obsoleteTech": "Combustion",
 		"attackSound": "horse"
     }
+    {
+    	        "name": "Prussian Landwehr",
+		"unitType": "Gunpowder",
+	   	"replaces": "Rifleman",
+		"uniqueTo": "Kingdom of Prussia",
+		"movement": 3,
+		"strength": 30,
+		"cost": 200,
+		"requiredTech": "Rifling",
+	        "uniques": ["[+2] Movement <in [Friendly Land] tiles>","[+33]% XP gained from combat","[+15]% Strength when stacked with [Great General]"],
+                "obsoleteTech": "Replaceable Parts",
+		"upgradesTo": "Great War Infantry",
+		"attackSound": "shot"
+    },
+    {
+		"name": "Death's Head Hussar",
+		"unitType": "Mounted",
+	        "replaces": "Cavalry",
+	        "uniqueTo": "Kingdom of Prussia",
+		"movement": 5,
+		"strength": 35,
+		"cost": 225,
+		"requiredTech": "Military Science",
+		"requiredResource": "Horses",
+		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>","[+1] Sight"],
+		"promotions": ["Totenkopf Insignia"],
+		"upgradesTo": "Landship",
+		"obsoleteTech": "Combustion",
+		"attackSound": "horse"
+   },
+
 ]
