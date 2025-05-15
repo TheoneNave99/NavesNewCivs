@@ -168,6 +168,23 @@
 		"uniques": ["Indicates the capital city","[+2 Happiness] <for every [2] [[Wonder] Buildings]>","[-33]% Culture cost of natural border growth [in all cities]"],
 	},
 	{
+			"name": "Koy",
+			"uniqueTo": "Catalhoyuk",
+			"replaces": "Granary",
+			"food": 2,
+			"maintenance": 1,
+			"hurryCostModifier": 25,
+			"uniques": ["[+1 Food] from [Deer] tiles [in this city]",
+				"[+1 Food] from [Bananas] tiles [in this city]",
+				"[+1 Food] from [Wheat] tiles [in this city]",
+				"[+1 Faith] from [Deer] tiles [in this city]",
+				"[+1 Faith] from [Wheat] tiles [in this city]",
+				"[+1 Faith] from [Luxury resource] tiles [in this city]",
+			  "[+1 Faith] from [Bonus resource] tiles [in this city]",
+				"[+1 Faith] from [Strategic resource] tiles [in this city]"],
+			"requiredTech": "Agriculture"
+		},
+	{
 			"name": "Manufacturing Sector",
 			"uniqueTo": "People's Republic of China",
 			"replaces": "Factory",
