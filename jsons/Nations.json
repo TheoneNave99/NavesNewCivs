@@ -275,7 +275,7 @@
 	"[+4] HP when healing <upon adopting [Autocracy Complete]> <hidden from users>",
 	"[+4] HP when healing <upon adopting [Freedom Complete]> <hidden from users>",
 	"[+4] HP when healing <upon adopting [Rationalism Complete]> <hidden from users>",
-]
+		
 	"spyNames": ["Bai", "Xudong", "Yanqing", "Wei", "Fang", "Ming", "Jie", "Qian", "Xuesen", "Zhou"],
 	"cities": ["Beijing", "Xi'an", "Nanjing", "Luoyang", "Hangzhou", "Kaifeng", "Anyang", "Shanghai", "Chengdu", "Guangzhou", "Suzhou", "Wuhan", "Chongqing", "Zhengzhou", "Datong", "Lhasa", "Harbin", "Quanzhou", "Xining", "Changsha", "Fuzhou", "Kunming", "Nanchang", "Shenzhen", "Urumqi"],	
 	},
