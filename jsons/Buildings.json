@@ -28,7 +28,7 @@
 		"uniques": ["[-15]% Unhappiness from [Population] [in this city]", "Consumes [3] [Iron]", "[10]% Food is carried over after population increases [in this city]"],
 		"requiredTech": "Metal Casting"
 	},
-		{
+	{
 		"name": "Sky Scraper",
 		"uniqueTo": "IEAmerica",
 		"cost": 200,
@@ -91,20 +91,6 @@
 		"requiredTech": "Rifling"
 	},
 	{
-		"name": "Lycée Impérial",
-		"replaces": "Public School",
-		"uniqueTo": "French Empire",
-		"science": 3,
-		"production": 3,
-		"culture": 3,
-		"specialistSlots": {"Scientist": 1},
-		"requiredBuilding": "University",
-		"maintenance": 1,
-		"hurryCostModifier": 0,
-		"uniques": ["[+1 Science] per [2] population [in this city]"],
-		"requiredTech": "Scientific Theory"
-	},
-	{
 		"name": "Royal Naval Dockyard",
 		"replaces": "Seaport",
 		"uniqueTo": "Great Britain",
@@ -115,8 +101,7 @@
 		"uniques": ["Must be next to [Coast]", 
 		"[+33]% Production when constructing [Water] units [in this city]",
 		"[+2 Production, +2 Gold] from [Water resource] tiles [in this city]",
-		"[+2 Production, +2 Gold] from [Coal] tiles [in this city]",
-		"[+2 Production, +2 Gold] from [Iron] tiles [in this city]",
+		"[+4 Production, +2 Gold] from [Coal] tiles [in this city]",
 		"Provides [1] [Coal]", "Provides [2] [Iron]"],
 		"requiredTech": "Navigation",
 	},
@@ -128,9 +113,10 @@
 		"hurryCostModifier": 0,
 		"gold": 1,
 		"culture": 1,
-		"maintenance": 1,
+		"science": 1,
+		"maintenance": 0,
 		"requiredBuilding": "Armory",
-		"uniques": ["New [Military] units start with [15] XP [in this city]", "Destroyed when the city is captured","New spies start with [2] level(s) <in this city>"],
+		"uniques": ["New [Military] units start with [15] XP [in this city]", "Destroyed when the city is captured"],
 		"requiredTech": "Military Science"
 	},
 	{
@@ -177,16 +163,14 @@
 			"food": 2,
 			"maintenance": 1,
 			"hurryCostModifier": 25,
-			"uniques": ["[+1 Food] from [Plains] tiles [in this city]",
-				"[+1 Food] from [Deer] tiles [in this city]",
-				"[+1 Food] from [Wheat] tiles [in this city]",
-				"[+1 Faith] from [Deer] tiles [in this city]",
-				"[+1 Faith] from [Wheat] tiles [in this city]",
-				"[+1 Faith] from [Luxury resource] tiles [in this city]",
-			  "[+1 Faith] from [Bonus resource] tiles [in this city]",
-				"[+1 Faith] from [Strategic resource] tiles [in this city]"],
+			"uniques": ["[+1 Food, +1 Faith] from [Plains] tiles [in this city]",
+				"[+1 Food, +1 Faith] from [Deer] tiles [in this city]",
+				"[+1 Food, +1 Faith] from [Wheat] tiles [in this city]",
+				"[+1 Food, +1 Faith] from [Bonus resource] tiles [in this city]",
+				"[+2 Faith] from [Luxury resource] tiles [in this city]"],
+			  	
 			"requiredTech": "Agriculture"
-		},
+	},
 	{
 			"name": "Manufacturing Sector",
 			"uniqueTo": "People's Republic of China",
