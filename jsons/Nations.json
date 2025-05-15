@@ -198,7 +198,36 @@
 			"Tsaritsyn","Yekaterinburg","Akhtiar","Yekaterinodar","Tobolsk","Omsk","Tomsk","Krasnoyarsk","Irkutsk","Yakutsk","Petropavlovsk"],
 		"spyNames": ["Alexander I","Kutusov","Barclay de Tolly","Karamzin","Rennenkampf","Bagration","Kornilov","Suvorov","Pahlen","Rumyantsev"]
 		
-	}, 
+	},
+	{
+	"name": "Catalhoyuk",
+	"adjective": ["Catalhoyukian"],
+	"leaderName": "Çete Reisi",
+	"preferredVictoryType": "Cultural",
+	"startBias": ["Plains", "Desert"],
+	"favoredReligion": "Polytheism",
+
+	"declaringWar": "Hearken, O foreign despot! The earth beneath Catalhoyuk trembles not with fear, but with the fury of a thousand warriors! Our spears shall drink deeply of your blood, and our stones shall crush your dreams of conquest! The Çete Reisi declares war upon you, and our wrath shall be your eternal doom!",
+	"attacked": "Infamy! The sacred walls of Catalhoyuk, bastion of our ancestors, are breached by your vile hand! But know this, invader: for every stone you topple, a hundred more shall rise in its place.",
+	"defeated":"Alas, the final darkness falls upon Catalhoyuk. Our people, once proud and free, now lie shattered beneath the heel of tyranny.",
+	"introduction": "The Çete Reisi, guardian of Catalhoyuk, bids you welcome to our ancient halls.",
+
+	"neutralHello": "The Çete Reisi acknowledges your presence.",
+	"hateHello": "Wretched usurper! The Çete Reisi spits upon your pretense of power.",
+
+	"tradeRequest": "Let our markets overflow with the fruits of our labor—precious stones, fine pottery, and the secrets of our craft. In the spirit of mutual gain, let us forge a bond that shall endure the ages.",
+
+	"innerColor": [108, 70, 79],
+	"outerColor": [234, 240, 206],
+
+	"uniqueName": "Neolithic Revolution",
+	"uniques": ["[+1 Food, +2 Production] [in capital] <during the [Ancient era]>", "[-50]% construction time for [All] improvements <during the [Ancient era]>", "[-10]% construction time for [All] improvements <during the [Classical era]>",
+		    "Free [Worker] appears <upon discovering [Mining] technology>", "Free [Worker] appears <upon discovering [Pottery] technology>", "Free [Worker] appears <upon discovering [Calendar] technology>", "[+1 Food, +2 Science] [in capital] <during the [Classical era]>"],
+
+	"spyNames": ["Zara", "Kara", "Mira", "Lina", "Dara", "Nila", "Sena", "Tara", "Ayla", "Rina"],
+	"cities": ["Çatalhöyük", "Alisar Höyük", "Melid", "Cafer Höyük", "Kültepe", "Gözlükule", "Alaca Höyük", "Domuztepe", "Yumuktepe", "Çayönü", "Göbekli Tepe", "Coba Höyük", "Nevali Çori", "Çukuriçi Höyük", "Hacilar", "Kumtepe"],
+},
+
 	{
 	"name": "People's Republic of China",
 	"adjective": ["Chinese"],
