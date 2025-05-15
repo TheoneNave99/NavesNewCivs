@@ -221,7 +221,7 @@
 	"outerColor": [234, 240, 206],
 
 	"uniqueName": "Neolithic Revolution",
-	"uniques": ["[+1 Food, +2 Production] [in capital] <during the [Ancient era]>", "[-50]% construction time for [All] improvements <during the [Ancient era]>", "[-10]% construction time for [All] improvements <during the [Classical era]>",
+	"uniques": ["[+1 Food, +2 Production] [in capital] <during the [Ancient era]>", "[-50]% construction time for [All] improvements <during the [Ancient era]>", "[-20]% construction time for [All] improvements <during the [Classical era]>",
 		    "Free [Worker] appears <upon discovering [Mining] technology>", "Free [Worker] appears <upon discovering [Pottery] technology>", "Free [Worker] appears <upon discovering [Calendar] technology>", "[+1 Food, +2 Science] [in capital] <during the [Classical era]>"],
 
 	"spyNames": ["Zara", "Kara", "Mira", "Lina", "Dara", "Nila", "Sena", "Tara", "Ayla", "Rina"],
