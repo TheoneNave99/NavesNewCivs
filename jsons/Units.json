@@ -205,7 +205,20 @@
 	"obsoleteTech": "Mobile Tactics",
 	"attackSound": "shot"
 },
-	{
+{
+	"name": "Neolithic Cartographer",
+	"uniqueTo": "Catalhoyuk",
+	"replaces": "Scout",
+	"unitType": "Scout",
+	"movement": 3,
+	"strength": 6,
+	"cost": 20,
+	"obsoleteTech": "Scientific Theory",
+	"uniques": ["May upgrade to [Archer] through ruins-like effects", "Never appears as a Barbarian unit", "Can build [Quarry] improvements on tiles"],
+	"promotions": ["Ignore terrain cost", "Scouting I", "Scouting II"],
+	"attackSound": "nonmetalhit"
+},
+{
 		"name": "Laborer",
 		"unitType": "Civilian",
 		"uniqueTo": "People's Republic of China",
@@ -213,6 +226,6 @@
 		"uniques": ["Can build [Land] improvements on tiles"],
 		"requiredTech": "Civil Service",
 		"cost": 15
-	},
+},
 
 ]
